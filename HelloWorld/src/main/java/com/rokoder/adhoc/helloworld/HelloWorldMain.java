@@ -4,7 +4,7 @@ package com.rokoder.adhoc.helloworld;
  * Hello world!
  *
  */
-public class App 
+public class HelloWorldMain
 {
     public static void main( String[] args )
     {
