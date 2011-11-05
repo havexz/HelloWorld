@@ -1,8 +1,9 @@
 === Hello World! ===
 
 Build Intructions
------------------
+------------------
 
+cd HelloWorld
 mvn package
 
 
