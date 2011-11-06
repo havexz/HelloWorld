@@ -4,7 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Hello world!
+ * Just Hello World main program to use HelloWorld class
+ *
+ * @author havexz
  */
 public class HelloWorldMain {
     static Logger logger = LoggerFactory.getLogger(HelloWorldMain.class);
