@@ -1,9 +1,31 @@
 === Hello World! ===
 
+Getting the Code
+-----------------
+
+One Way
+
+- Download the code from 'https://github.com/havexz/HelloWorld/downloads'.
+- Extract the code to a folder of your choice.
+
+Another Way
+
+- Go to the folder where you want to get the code.
+- 'git clone git://github.com/havexz/HelloWorld.git'
+
 Build Intructions
 ------------------
 
-cd HelloWorld
-mvn package
+- 'cd HelloWorld'
+- 'mvn package'
 
+
+Running the program
+--------------------
+
+- 'cd HelloWorld' if you are not already there.
+- 'mvn dependency:copy-dependencies'
+- 'cd target'
+- 'cp -p ../proj_meta/templates/log4j.properties ./'
+- 'java -cp .:./dependency/slf4j-api-1.6.3.jar:./dependency/slf4j-log4j12-1.6.3.jar:./dependency/log4j-1.2.16.jar:HelloWorld-1.0.0-SNAPSHOT.jar com.rokoder.adhoc.helloworld.HelloWorldMain'
 
