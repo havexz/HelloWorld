@@ -29,3 +29,10 @@ Running the program
 - 'cp -p ../proj_meta/templates/log4j.properties ./'
 - 'java -cp .:./dependency/slf4j-api-1.6.3.jar:./dependency/slf4j-log4j12-1.6.3.jar:./dependency/log4j-1.2.16.jar:HelloWorld-1.0.0-SNAPSHOT.jar com.rokoder.adhoc.helloworld.HelloWorldMain'
 
+Building the java-doc
+---------------------
+
+- 'cd HelloWorld' if you are not already there.
+- 'mvn javadoc:aggregate-jar'
+- Java doc can be found in './target' folder with file name 'HelloWorld-<version>-javadoc.jar'
+
