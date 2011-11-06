@@ -1,12 +1,11 @@
-=== Hello World! ===
+== Hello World! ==
 
-Getting the Code
------------------
+=== Getting the Code ===
 
-One Way
+**One Way**
 
-- Download the code from 'https://github.com/havexz/HelloWorld/downloads'.
-- Extract the code to a folder of your choice.
+* Download the code from 'https://github.com/havexz/HelloWorld/downloads'.
+* Extract the code to a folder of your choice.
 
 Another Way
 
