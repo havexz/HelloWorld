@@ -26,6 +26,17 @@ Build Intructions
 Running the program
 -------------------
 
+### One Way - Easy to use
+
+* `cd HelloWorld` if you are not already there.
+* `mvn dependency:copy-dependencies`
+* `mvn dependency:copy-dependencies`
+* `cd target`
+* `cp ../proj_meta/templates/log4j.properties ./`
+* `../proj_meta/scripts/easyrunjava -c .,./dependency com.rokoder.adhoc.helloworld.HelloWorldMain`
+
+### Another Way - Long command
+
 * `cd HelloWorld` if you are not already there.
 * `mvn dependency:copy-dependencies`
 * `cd target`
