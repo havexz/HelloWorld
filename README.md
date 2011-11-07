@@ -48,6 +48,6 @@ Building the java-doc
 
 * `cd HelloWorld` if you are not already there.
 * `mvn javadoc:aggregate-jar`
-* Java doc can be found in './target' folder with file name 'HelloWorld-<version>-javadoc.jar'
+* Java doc can be found in './target' folder with file name 'HelloWorld-\<version\>-javadoc.jar'
 
 NOTE: Instruction above are for Mac OSX/Linux/Unix. For Windows you might need slight change for running. Replace ':' with ';'.
